@@ -12,7 +12,7 @@
         <activity android:name=".PatelActivityPayment"></activity>
         <activity android:name=".PatelActivityCheckout" />
         <activity android:name=".PatelActivityHomepage" />
-        <activity android:name=".RajkumarActivity">
+        <activity android:name=".RajkumarActivity" android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

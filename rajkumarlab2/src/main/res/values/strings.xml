@@ -4,4 +4,5 @@
 
 <resources>
     <string name="app_name">RajkumarLab2</string>
+    <string name="mainscreen_enterbutton">Enter</string>
 </resources>
