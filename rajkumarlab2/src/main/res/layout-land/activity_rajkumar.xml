@@ -19,9 +19,10 @@
         android:id="@+id/rajkumarBtn2"
         android:layout_width="300dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dip"
+        android:layout_marginTop="10dip"
         android:layout_gravity="center"
         style="@style/ButtonStyle"
+        android:onClick="callIntent"
         android:text="@string/mainscreen_enterbutton" />
 
 </LinearLayout>
