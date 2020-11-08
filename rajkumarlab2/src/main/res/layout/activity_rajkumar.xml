@@ -8,12 +8,22 @@
     android:orientation="vertical"
     tools:context=".RajkumarActivity">
 
+    <ImageView
+        android:id="@+id/rajkumarIv"
+        android:layout_width="400dip"
+        android:layout_height="300dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip"
+        android:src="@drawable/company_logo"/>
+
     <Button
         android:id="@+id/rajkumarBtn"
         android:layout_width="300dip"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dip"
+        android:layout_marginTop="50dip"
         android:layout_gravity="center"
+        style="@style/ButtonStyle"
+        android:onClick="callIntent"
         android:text="@string/mainscreen_enterbutton" />
 
 </LinearLayout>
