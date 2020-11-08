@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/rajkumarItem1"
+        android:title="Apartment"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/rajkumarItem2"
+        android:title="Detached Home"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/rajkumarItem3"
+        android:title="Semi-Detached Home"
+        app:showAsAction="never"/>
+
+</menu>
