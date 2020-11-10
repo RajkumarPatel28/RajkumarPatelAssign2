@@ -60,6 +60,7 @@ public class PatelActivityHomepage extends AppCompatActivity {
                 return true;
             case R.id.rajkumarItem3:
                 setTitle("These are the Semi-Detached Homes");
+                rajkumarVf.setDisplayedChild(3);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

@@ -289,9 +289,126 @@
             android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"/>
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv09"
+                        android:layout_width="140dip"
+                        android:layout_height="160dip"
+                        android:src="@drawable/semi_detached_home1"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 17 Applebaum Terr\n Toronto, ON M3J 0E7\n\n $2800/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv10"
+                        android:layout_width="140dip"
+                        android:layout_height="170dip"
+                        android:src="@drawable/semi_detached_home2"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 3367 Weston Rd\n Toronto, ON M9M 2V6\n\n $2300/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv11"
+                        android:layout_width="140dip"
+                        android:layout_height="170dip"
+                        android:src="@drawable/semi_detached_home3"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 102 Northover St\n Toronto, ON M3L 1W7\n\n $2400/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv12"
+                        android:layout_width="140dip"
+                        android:layout_height="180dip"
+                        android:src="@drawable/semi_detached_home4"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 135 Rodda Blvd\n Toronto, ON M1E 3A1\n\n $2200/Month"/>
+                </LinearLayout>
+            </LinearLayout>
         </ScrollView>
     </ViewFlipper>
 </LinearLayout>
