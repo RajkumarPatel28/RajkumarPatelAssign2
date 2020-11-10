@@ -20,7 +20,7 @@ public class PatelActivityCheckout extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patel_checkout);
-        setTitle("Checkout");
+        setTitle(getString(R.string.checkout_title));
 
         loadList();
         ImageButton rajkumarIBtn2 = findViewById(R.id.rajkumarIBtn2);

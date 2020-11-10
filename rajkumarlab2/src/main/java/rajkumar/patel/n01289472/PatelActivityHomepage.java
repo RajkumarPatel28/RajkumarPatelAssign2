@@ -30,7 +30,7 @@ public class PatelActivityHomepage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patel_homepage);
-        setTitle("Select Home");
+        setTitle(getString(R.string.homepage_title));
 
         rajkumarVf = findViewById(R.id.rajkumarVf);
         rajkumarVf.setDisplayedChild(0);
@@ -84,15 +84,15 @@ public class PatelActivityHomepage extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.rajkumarItem1:
-                setTitle("These are the Apartments");
+                setTitle(getString(R.string.homepage_item1));
                 rajkumarVf.setDisplayedChild(1);
                 return true;
             case R.id.rajkumarItem2:
-                setTitle("These are the Detached Homes");
+                setTitle(getString(R.string.homepage_item2));
                 rajkumarVf.setDisplayedChild(2);
                 return true;
             case R.id.rajkumarItem3:
-                setTitle("These are the Semi-Detached Homes");
+                setTitle(getString(R.string.homepage_item3));
                 rajkumarVf.setDisplayedChild(3);
                 return true;
             default:

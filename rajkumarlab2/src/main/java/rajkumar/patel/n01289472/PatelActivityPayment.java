@@ -26,6 +26,7 @@ public class PatelActivityPayment extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patel_payment);
+        setTitle(getString(R.string.payment_title));
 
         RadioGroup rajkumarRg = findViewById(R.id.rajkumarRg);
         rajkumarEtFullname = findViewById(R.id.rajkumarEtFullname);
@@ -57,11 +58,11 @@ public class PatelActivityPayment extends AppCompatActivity {
                 card = rajkumarEtCardNumber.getText().toString().trim();
 
                 if (card.length() > 16 && visibility) {
-                    rajkumarEtCardNumber.setError("The Card Number Entered is invalid");
+                    rajkumarEtCardNumber.setError(getString(R.string.payment_errorcheck));
                 }
 
                 if (name.length() < 2) {
-                    rajkumarEtFullname.setError("The Name is invalid");
+                    rajkumarEtFullname.setError(getString(R.string.payment_errorcheck2));
                     return;
                 }
 
@@ -69,16 +70,16 @@ public class PatelActivityPayment extends AppCompatActivity {
                     rajkumarPb.setVisibility(View.VISIBLE);
 
                     AlertDialog.Builder dialog = new AlertDialog.Builder(PatelActivityPayment.this);
-                    dialog.setMessage("The Confirmation Number is 1234567890");
+                    dialog.setMessage(getString(R.string.paymentdialog));
                     dialog.setCancelable(false);
-                    dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    dialog.setPositiveButton(getString(R.string.payment_dialog_ok), new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
                                     System.exit(0);
                                 }
                             });
                     AlertDialog dialogmessage = dialog.create();
-                    dialogmessage.setTitle("You Have Paid");
+                    dialogmessage.setTitle(getString(R.string.payment_dialog_paid));
                     dialogmessage.show();
                 }
             }

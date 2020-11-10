@@ -5,6 +5,22 @@
 <resources>
     <string name="app_name">RajkumarLab2</string>
     <string name="mainscreen_enterbutton">Enter</string>
+    <string name="firstscreen_title">Main Screen</string>
+    <string name="homepage_title">Select Home</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="payment_title">Payment</string>
+    <string name="firstscreen_dialog">Would you like to exit?</string>
+    <string name="firstscreen_dialog_yes">Yes</string>
+    <string name="firstscreen_dialog_no">No</string>
+    <string name="firstscreen_dialod_exit">Exit App</string>
+    <string name="homepage_item1">These are the Apartments</string>
+    <string name="homepage_item2">These are the Detached Homes</string>
+    <string name="homepage_item3">These are the Semi-Detached Homes</string>
+    <string name="payment_errorcheck">The Card Number Entered is invalid</string>
+    <string name="payment_errorcheck2">The Name is invalid</string>
+    <string name="paymentdialog">The Confirmation Number is: 1234567890</string>
+    <string name="payment_dialog_ok">OK</string>
+    <string name="payment_dialog_paid">You Have Paid</string>
     <string name="apartment_title">Apartment</string>
     <string name="detached_home_title">Detached Home</string>
     <string name="semi_detached_home_title">Semi-Detached Home</string>
@@ -28,4 +44,5 @@
     <string name="full_name_title">Full Name</string>
     <string name="credit_debit_card_number_title">Credit/Debit Card Number</string>
     <string name="validation_title">Validation</string>
+    <string name="checkout_tv">Checkout</string>
 </resources>

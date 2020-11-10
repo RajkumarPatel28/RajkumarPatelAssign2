@@ -19,28 +19,28 @@ public class RajkumarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rajkumar);
-        setTitle("Main Screen");
+        setTitle(getString(R.string.firstscreen_title));
     }
 
     @Override
     public void onBackPressed() {
         AlertDialog.Builder dialog = new AlertDialog.Builder(this);
-        dialog.setMessage("Would you like to exit?");
+        dialog.setMessage(getString(R.string.firstscreen_dialog));
         dialog.setCancelable(false);
-        dialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        dialog.setPositiveButton(getString(R.string.firstscreen_dialog_yes), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 RajkumarActivity.this.finish();
             }
         });
-        dialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        dialog.setNegativeButton(getString(R.string.firstscreen_dialog_no), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
             }
         });
         AlertDialog dialogMessage = dialog.create();
-        dialogMessage.setTitle("Exit App");
+        dialogMessage.setTitle(getString(R.string.firstscreen_dialod_exit));
         dialogMessage.setIcon(R.drawable.question_mark);
         dialogMessage.show();
     }
