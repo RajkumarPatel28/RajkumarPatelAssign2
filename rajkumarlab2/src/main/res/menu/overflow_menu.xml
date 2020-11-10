@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/rajkumarItem1"
-        android:title="Apartment"
+        android:title="@string/apartment_title"
         app:showAsAction="never"/>
 
     <item android:id="@+id/rajkumarItem2"
-        android:title="Detached Home"
+        android:title="@string/detached_home_title"
         app:showAsAction="never"/>
 
     <item android:id="@+id/rajkumarItem3"
-        android:title="Semi-Detached Home"
+        android:title="@string/semi_detached_home_title"
         app:showAsAction="never"/>
 
 </menu>

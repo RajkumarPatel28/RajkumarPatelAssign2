@@ -5,4 +5,8 @@
 <resources>
     <string name="app_name">RajkumarLab2</string>
     <string name="mainscreen_enterbutton">Enter</string>
+    <string name="apartment_title">Apartment</string>
+    <string name="detached_home_title">Detached Home</string>
+    <string name="semi_detached_home_title">Semi-Detached Home</string>
+    <string name="company_info_tv">Our company LeaseOrRentHome Inc. works with clients to find a perfect home for them. There are three types of homes shown to clients that are Apartments, Detached Homes, and Semi-Detached Homes.</string>
 </resources>

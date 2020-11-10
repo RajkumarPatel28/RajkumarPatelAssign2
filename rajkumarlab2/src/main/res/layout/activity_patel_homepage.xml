@@ -7,5 +7,291 @@
     android:background="@color/purple"
     android:orientation="vertical"
     tools:context=".PatelActivityHomepage">
+    
+    <ImageButton
+        android:id="@+id/rajkumarIBtn"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_gravity="right"
+        android:src="@drawable/checkout_basket"/>
 
+    <ViewFlipper
+        android:id="@+id/rajkumarVf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/rajkumarTv"
+            android:layout_width="350dip"
+            android:layout_height="wrap_content"
+            style="@style/CompanyInfoTextStyle"
+            android:text="@string/company_info_tv" />
+        
+        <ScrollView
+            android:id="@+id/rajkumarSv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/rajkumarCb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginTop="70dip"
+                    android:checked="false"/>
+
+                <ImageView
+                    android:id="@+id/rajkumarIv01"
+                    android:layout_width="120dip"
+                    android:layout_height="160dip"
+                    android:layout_marginStart="10dip"
+                    android:src="@drawable/apartment1"/>
+
+                <TextView
+                    android:id="@+id/rajkumarTv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginTop="40dip"
+                    style="@style/TextStyle"
+                    android:text=" 40 Stevenson Road\n Etobicoke, ON M9V 2B2\n\n $1900/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/rajkumarCb2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginTop="70dip"
+                    android:checked="false"/>
+
+                <ImageView
+                    android:id="@+id/rajkumarIv02"
+                    android:layout_width="120dip"
+                    android:layout_height="160dip"
+                    android:layout_marginStart="10dip"
+                    android:src="@drawable/apartment2"/>
+
+                <TextView
+                    android:id="@+id/rajkumarTv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dip"
+                    android:layout_marginTop="40dip"
+                    style="@style/TextStyle"
+                    android:text=" 715 Finch Ave\n North York, ON M3H 4X7\n\n $1600/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv03"
+                        android:layout_width="140dip"
+                        android:layout_height="170dip"
+                        android:src="@drawable/apartment3"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 1 Canyon Avenue\n North York, ON M3H 4X8\n\n $1800/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv04"
+                        android:layout_width="140dip"
+                        android:layout_height="180dip"
+                        android:src="@drawable/apartment4"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 2110 Keele St\n North York, ON M6M 3Z5\n\n $1300/Month"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/rajkumarSv2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv05"
+                        android:layout_width="140dip"
+                        android:layout_height="170dip"
+                        android:src="@drawable/detached_home1"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 51 Leila Jackson\n Toronto, ON M3L 0B2\n\n $2800/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv06"
+                        android:layout_width="140dip"
+                        android:layout_height="170dip"
+                        android:src="@drawable/detached_home2"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 20 Woodgate Drive\n Toronto, ON M6N 4W3\n\n $2600/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv07"
+                        android:layout_width="140dip"
+                        android:layout_height="170dip"
+                        android:src="@drawable/detached_home3"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 720 Bloor Street\n Toronto, ON L4Y 2N5\n\n $3000/Month"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/rajkumarCb8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="70dip"
+                        android:checked="false"/>
+
+                    <ImageView
+                        android:id="@+id/rajkumarIv08"
+                        android:layout_width="140dip"
+                        android:layout_height="180dip"
+                        android:src="@drawable/detached_home4"/>
+
+                    <TextView
+                        android:id="@+id/rajkumarTv8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dip"
+                        android:layout_marginTop="40dip"
+                        style="@style/TextStyle"
+                        android:text=" 16 Cobb Ave\n Toronto, ON M3L 2A1\n\n $2500/Month"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/rajkumarSv3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </ScrollView>
+    </ViewFlipper>
 </LinearLayout>

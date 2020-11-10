@@ -14,4 +14,17 @@
         <item name="android:background">@drawable/button_design</item>
     </style>
 
+    <style name="CompanyInfoTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    
+    <style name="TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>
