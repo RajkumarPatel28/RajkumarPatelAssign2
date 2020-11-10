@@ -13,12 +13,19 @@
     <string name="apartment2_tv">715 Finch Ave\n North York, ON M3H 4X7\n\n $1600/Month</string>
     <string name="apartment3_tv">1 Canyon Avenue\n North York, ON M3H 4X8\n\n $1800/Month</string>
     <string name="apartment4_tv">2110 Keele St\n North York, ON M6M 3Z5\n\n $1300/Month</string>
-    <string name="detached_home1_tv">51 Leila Jackson\n Toronto, ON M3L 0B2\n\n $2800/Month</string>
-    <string name="detached_home2_tv">20 Woodgate Drive\n Toronto, ON M6N 4W3\n\n $2600/Month</string>
-    <string name="detached_home3_tv">720 Bloor Street\n Toronto, ON L4Y 2N5\n\n $3000/Month</string>
-    <string name="detached_home4_tv">16 Cobb Ave\n Toronto, ON M3L 2A1\n\n $2500/Month</string>
+    <string name="detached_home1_tv"> 51 Leila Jackson\n Toronto, ON M3L 0B2\n\n $2800/Month</string>
+    <string name="detached_home2_tv"> 20 Woodgate Drive\n Toronto, ON M6N 4W3\n\n $2600/Month</string>
+    <string name="detached_home3_tv"> 720 Bloor Street\n Toronto, ON L4Y 2N5\n\n $3000/Month</string>
+    <string name="detached_home4_tv"> 16 Cobb Ave\n Toronto, ON M3L 2A1\n\n $2500/Month</string>
     <string name="semi_detached_home1_tv">17 Applebaum Terr\n Toronto, ON M3J 0E7\n\n $2800/Month</string>
     <string name="semi_detached_home2_tv">3367 Weston Rd\n Toronto, ON M9M 2V6\n\n $2300/Month</string>
     <string name="semi_detached_home3_tv">102 Northover St\n Toronto, ON M3L 1W7\n\n $2400/Month</string>
     <string name="semi_detached_home4_tv">135 Rodda Blvd\n Toronto, ON M1E 3A1\n\n $2200/Month</string>
+    <string name="payment_tvtitle">Payment</string>
+    <string name="cash_title">Cash</string>
+    <string name="credit_card_title">Credit Card</string>
+    <string name="debit_card_title">Debit Card</string>
+    <string name="full_name_title">Full Name</string>
+    <string name="credit_debit_card_number_title">Credit/Debit Card Number</string>
+    <string name="validation_title">Validation</string>
 </resources>

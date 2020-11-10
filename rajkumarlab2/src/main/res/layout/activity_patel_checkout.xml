@@ -8,4 +8,19 @@
     android:orientation="vertical"
     tools:context=".PatelActivityCheckout">
 
+    <TextView
+        android:id="@+id/rajkumarTvcheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextviewStyle02"
+        android:text="Checkout"/>
+
+    <ImageButton
+        android:id="@+id/rajkumarIBtn2"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginTop="400dip"
+        android:layout_gravity="center"
+        android:src="@drawable/payment"/>
+
 </LinearLayout>

@@ -8,4 +8,87 @@
     android:orientation="vertical"
     tools:context=".PatelActivityPayment">
 
+    <TextView
+        android:id="@+id/rajkumartv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextviewStyle"
+        android:text="@string/payment_tvtitle"/>
+
+    <RadioGroup
+        android:id="@+id/rajkumarRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip">
+
+        <RadioButton
+            android:id="@+id/rajkumarRBtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dip"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/cash_title" />
+
+        <RadioButton
+            android:id="@+id/rajkumarRBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dip"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/credit_card_title" />
+
+        <RadioButton
+            android:id="@+id/rajkumarRBtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dip"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:checked="true"
+            android:text="@string/debit_card_title" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/rajkumarEtFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:layout_gravity="center"
+        android:ems="18"
+        android:autofillHints="false"
+        android:inputType="textPersonName"
+        style="@style/TextStyle"
+        android:hint="@string/full_name_title" />
+
+    <EditText
+        android:id="@+id/rajkumarEtCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_gravity="center"
+        android:ems="18"
+        android:autofillHints="false"
+        android:inputType="textPersonName"
+        style="@style/TextStyle"
+        android:hint="@string/credit_debit_card_number_title" />
+
+    <ProgressBar
+        android:id="@+id/rajkumarPb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/rajkumarBtnValidate"
+        android:layout_width="360dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        style="@style/ButtonStyle"
+        android:text="@string/validation_title" />
+
 </LinearLayout>
