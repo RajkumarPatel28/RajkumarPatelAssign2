@@ -64,7 +64,7 @@
                     android:layout_marginStart="10dip"
                     android:layout_marginTop="40dip"
                     style="@style/TextStyle"
-                    android:text=" 40 Stevenson Road\n Etobicoke, ON M9V 2B2\n\n $1900/Month"/>
+                    android:text="@string/apartment1_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -94,7 +94,7 @@
                     android:layout_marginStart="10dip"
                     android:layout_marginTop="40dip"
                     style="@style/TextStyle"
-                    android:text=" 715 Finch Ave\n North York, ON M3H 4X7\n\n $1600/Month"/>
+                    android:text="@string/apartment2_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -122,7 +122,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 1 Canyon Avenue\n North York, ON M3H 4X8\n\n $1800/Month"/>
+                        android:text="@string/apartment3_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -150,7 +150,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 2110 Keele St\n North York, ON M6M 3Z5\n\n $1300/Month"/>
+                        android:text="@string/apartment4_tv"/>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
@@ -191,7 +191,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 51 Leila Jackson\n Toronto, ON M3L 0B2\n\n $2800/Month"/>
+                        android:text="@string/detached_home1_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -220,7 +220,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 20 Woodgate Drive\n Toronto, ON M6N 4W3\n\n $2600/Month"/>
+                        android:text="@string/detached_home2_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -249,7 +249,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 720 Bloor Street\n Toronto, ON L4Y 2N5\n\n $3000/Month"/>
+                        android:text="@string/detached_home3_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -278,7 +278,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 16 Cobb Ave\n Toronto, ON M3L 2A1\n\n $2500/Month"/>
+                        android:text="@string/detached_home4_tv"/>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
@@ -319,7 +319,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 17 Applebaum Terr\n Toronto, ON M3J 0E7\n\n $2800/Month"/>
+                        android:text="@string/semi_detached_home1_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -348,7 +348,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 3367 Weston Rd\n Toronto, ON M9M 2V6\n\n $2300/Month"/>
+                        android:text="@string/semi_detached_home2_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -377,7 +377,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 102 Northover St\n Toronto, ON M3L 1W7\n\n $2400/Month"/>
+                        android:text="@string/semi_detached_home3_tv"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -406,7 +406,7 @@
                         android:layout_marginStart="10dip"
                         android:layout_marginTop="40dip"
                         style="@style/TextStyle"
-                        android:text=" 135 Rodda Blvd\n Toronto, ON M1E 3A1\n\n $2200/Month"/>
+                        android:text="@string/semi_detached_home4_tv"/>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
