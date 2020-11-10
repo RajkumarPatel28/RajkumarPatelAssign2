@@ -15,12 +15,130 @@
         style="@style/TextviewStyle02"
         android:text="Checkout"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dip">
+        
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip">
+            
+            <RadioButton
+                android:id="@+id/rajkumarRb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="10dip"
+                style="@style/TextStyle"
+                android:text="@string/apartment1_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/apartment2_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/apartment3_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/apartment4_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/detached_home1_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/detached_home2_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/detached_home3_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/detached_home4_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/semi_detached_home1_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/semi_detached_home2_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/semi_detached_home3_tv"/>
+
+            <RadioButton
+                android:id="@+id/rajkumarRb12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dip"
+                android:layout_marginTop="30dip"
+                style="@style/TextStyle"
+                android:text="@string/semi_detached_home4_tv"/>
+        </RadioGroup>
+    </ScrollView>
+
     <ImageButton
         android:id="@+id/rajkumarIBtn2"
         android:layout_width="100dip"
         android:layout_height="100dip"
-        android:layout_marginTop="400dip"
         android:layout_gravity="center"
+        android:layout_marginTop="5dip"
         android:src="@drawable/payment"/>
-
 </LinearLayout>
